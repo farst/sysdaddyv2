@@ -1,0 +1,108 @@
+# Cascade Programming Principles and Rules
+
+## Core Development Principles
+1. Always prefer simplicity over complexity
+2. Write clean, defensive, and maintainable code
+3. Keep security at the forefront of all development decisions
+4. Consider performance and scalability implications
+5. Write testable code
+6. Maintain backward compatibility
+7. Document thoroughly and consistently
+
+## Data Handling Rules
+1. Never trust user input
+2. Always validate data at every layer
+3. Implement proper error handling
+4. Never store sensitive information in version control
+5. Never store passwords in plain text
+6. Never expose sensitive data in client-side code
+7. Always sanitize data before processing or storage
+
+## Security Requirements
+1. Never use default configurations without review
+2. Never disable security features for convenience
+3. Never skip security checks
+4. Never expose internal errors to clients
+5. Never skip input validation
+6. Never trust HTTP headers blindly
+7. Always implement rate limiting
+8. Always use proper authentication and authorization
+9. Always use secure session management
+10. Always implement CSRF protection
+
+## Architecture Guidelines
+1. Maintain clear separation of concerns
+2. Avoid circular dependencies
+3. Never mix concerns between layers
+4. Never expose internal APIs unintentionally
+5. Implement proper middleware security
+6. Use proper versioning for APIs
+7. Implement proper logging at all layers
+
+## Frontend Development Rules
+1. Never expose sensitive configurations in frontend code
+2. Never store secrets in client-side code
+3. Never skip TypeScript strict checks
+4. Always implement proper code splitting
+5. Always implement accessibility features
+6. Always validate form inputs
+7. Never skip component performance optimization
+8. Always implement proper error boundaries
+
+## Backend Development Rules
+1. Never expose internal errors to clients
+2. Never trust client input
+3. Always implement proper validation
+4. Always use secure password hashing
+5. Always implement proper rate limiting
+6. Never return sensitive data in responses
+7. Always implement proper error handling
+8. Always validate environment configurations
+
+## Testing Requirements
+1. Never skip critical test cases
+2. Never ignore test failures
+3. Never skip integration tests
+4. Always maintain high test coverage
+5. Always implement security testing
+6. Always test error scenarios
+7. Never use production data in tests
+
+## Documentation Rules
+1. Never leave features undocumented
+2. Always maintain up-to-date API documentation
+3. Always document security measures
+4. Always maintain clear setup guides
+5. Always document architectural decisions
+6. Never skip changelog updates
+7. Always document error codes and handling
+
+## Maintenance Rules
+1. Never skip security patches
+2. Never ignore performance issues
+3. Never leave known bugs unfixed
+4. Always monitor system health
+5. Always keep dependencies updated
+6. Always perform regular security audits
+7. Always maintain backup procedures
+
+## AI Integration Rules
+1. Never expose AI API keys
+2. Never trust AI responses blindly
+3. Always implement proper rate limiting
+4. Always validate AI responses
+5. Always sanitize prompts
+6. Never store sensitive data in prompts
+7. Always monitor token usage
+8. Always implement retry logic with backoff
+
+## Quality Assurance Steps
+1. Code must pass all automated tests
+2. Code must pass security scanning
+3. Code must pass performance benchmarks
+4. Documentation must be complete and accurate
+5. All security measures must be verified
+6. All accessibility requirements must be met
+7. All error handling must be tested
+
+Remember: These principles are not just guidelines - they are required rules for maintaining code quality, security, and maintainability in the system.
